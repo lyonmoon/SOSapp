@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff6502"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="S"
+            android:textSize="95dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/o"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="S"
+            android:textSize="95dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:text="성북구 안암동 5가 102-94"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:id="@+id/location"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dB"
+        android:layout_gravity="right"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="30dp"
+        android:id="@+id/decibel"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/phone"
+            android:onClick="onClick"
+            android:id="@+id/call_1"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/name1"
+            android:text="눌러서 추가하세요."
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:onClick="onClick"
+            android:textColor="#ffffff"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/trash"
+            android:id="@+id/delete_1"
+            android:onClick="onClick"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/phone"
+            android:onClick="onClick"
+            android:id="@+id/call_2"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/name2"
+            android:text="눌러서 추가하세요."
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:onClick="onClick"
+            android:textColor="#ffffff"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/trash"
+            android:id="@+id/delete_2"
+            android:onClick="onClick"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/phone"
+            android:onClick="onClick"
+            android:id="@+id/call_3"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/name3"
+            android:text="눌러서 추가하세요."
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:onClick="onClick"
+            android:textColor="#ffffff"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/trash"
+            android:id="@+id/delete_3"
+            android:onClick="onClick"/>
+
+    </LinearLayout>
+</LinearLayout>
